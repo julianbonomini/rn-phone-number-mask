@@ -9,7 +9,7 @@ export default class PhoneNumberMask extends React.Component {
       value: '',
       maxLength: this.props.maxLength ? this.props.maxLength : 14,
       containerStyle: this.props.containerStyle ? this.props.containerStyle : {},
-      style: this.props.style ? this.props.style : {}
+      inputStyle: this.props.style ? this.props.style : {}
     }
   }
 

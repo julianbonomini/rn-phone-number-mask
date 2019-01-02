@@ -24,6 +24,7 @@ export default class PhoneNumberMask extends React.Component {
     return (
       <View style={this.state.containerStyle}>
         <TextInput
+          {...this.props}
           style={this.state.inputStyle}
           onChangeText={this.onChange}
           value={this.state.value}
